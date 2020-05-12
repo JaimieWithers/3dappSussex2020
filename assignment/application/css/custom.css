@@ -1,0 +1,474 @@
+/* Method to declare your own fonts */
+@font-face {
+    font-family: Vogue;
+    src: url(../assets/fonts/Vogue.ttf);
+}
+
+@font-face {
+    font-family: kenyancoffee;
+    src: url(../assets/fonts/kenyancoffeerg.ttf);
+}
+@font-face {
+    font-family: WIRE FRAME;
+    src: url(../assets/fonts/WIRE_FRAME.ttf);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+
+body {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.main_contents {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+/* Some simple CSS rules for styling p, h1 to h6, etc. in the main contents container */
+h3, p {
+    font-family: 'kenyancoffee', kenyan coffee rg;
+}
+
+h1, h2, h4, h5, h6 {
+    font-family: 'Vogue', Vogue;
+    /*font-family: cocaColaFont;*/
+}
+
+.chairText > p {
+    font-family:'kenyancoffee';
+    font: size 18px;
+    color: rgb(73, 48, 24);
+}
+.chairText > h3 {
+    
+    font-size:22px;
+    color: green;
+}
+.chairText > h2 {
+    font-family:'kenyancoffee';
+    font-size:20px;
+    color:green;
+}
+.homeText > p {
+    color:black;
+    font-size:18px;
+}
+.homeText > h4 {
+    color:white;
+    font-size:14px;
+}
+.homeText > h3 {
+    font-family:'kenyancoffee', kenyan coffee rg;
+    font-size:30px;
+    color: rgb(73, 48, 24);
+}
+.homeText > h2 {
+    font-size:40px;
+    color:white;
+}
+
+/* CSS rules for the main_text IDs */
+#main_text {
+    float: left;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+#main_text h1 {
+    color: rgba(255, 255, 255);
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#main_text h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#main_text h3 {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+#main_text p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.2;
+} 
+ /* CSS rule to style the mobile logo */
+ .logo {
+    margin-top: 3px;
+    }
+    
+    .logo h1 {
+    font-family: Vogue; 
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0px;
+    
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+    float: left;
+    }
+    
+    .logo h2 {
+    color: rgb(89, 60, 31);
+    font-size:40px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+    }
+        
+    .logo h3 {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+    }
+      
+
+/* CSS rule to overwrite the navbar background and border color” again, helps to stop your site looking like a Bootstrap clone! 
+  */
+.navbar_chair_museum {
+    background-color: rgb(0, 0, 0);
+    height: auto;
+}
+.navbar_chair_museum .navbar-brand {
+    text-align: left;
+    color: rgb(245, 235, 235);
+}
+.strapline small {
+    font-family: Vogue;
+    color: white;
+    text-align:left;
+    display: block;
+    font-size:12px;
+    margin-top:-18px;
+    padding-top: 0px;
+}
+    /* CSS rule to overwrite the navbar-brand font color
+    */
+   
+    /* CSS rule to overwrite the navbar-brand font hover color
+    */
+.navbar_chair_museum .logo:hover {
+    color: rgb(225, 228, 86);
+}
+
+    /* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+    */
+.navbar_chair_museum .navbar-nav .nav-item:hover{
+    background-color: rgb(114, 86, 58)
+}
+.navbar_chair_museum .navbar-nav .nav-item{
+     margin-top: auto;
+}
+       /* Let's style the dropdown menu
+    */
+.carousel { margin-left: -15px; margin-right: -15px; }
+.carousel-inner{ height: 400px; }
+.carousel-caption { bottom: 30% !important; } 
+.carousel-inner .carousel-item{
+    height: 100%;
+}
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 60px !important;
+    width: 60px !important;
+    margin:auto;
+    outline: black !important;
+    background-color: black !important;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: none;
+}
+.card-buttons .navtabs_inner{
+    font-family: 'kenyancoffee' !important;
+    background-color: wheat;
+
+}
+    /* CSS rule to style the footer */
+    .navbar_footer {
+        background-color: rgb(58, 45, 32); /* Set navbar background color */
+        height: auto;
+    }
+
+    .img-thumbnail {
+        padding: 0.25rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        width: 100px !important;
+        height: 100px !important;
+    }
+@media (min-width: 576px) {
+
+    body {
+        background-color: rgb(255, 255, 255) !important;
+    }
+    .chairText > p {
+        font-family:'kenyancoffee';
+        font-size:23px;
+        color: rgb(73, 48, 24);
+    }
+    .chairText > h3 {
+        
+        font-size:28px;
+        color:green;
+    }
+    .chairText > h2 {
+        font-family:'kenyancoffee';
+        font-size:17px;
+        color:green;
+    }
+    .homeText > p {
+        color:black;
+        font-size:17px;
+    }
+    .homeText > h4 {
+        color:white;
+        font-size:25px;
+    }
+    .homeText > h3 {
+        font-family:'kenyancoffee', kenyan coffee rg;
+        font-size:25px;
+        color: rgb(73, 48, 24);
+    }
+    .homeText > h2 {
+        font-size:30px;
+        color:white;
+    }
+    
+
+    #main_text {
+        float: right;
+        margin-top: 7%;
+    }
+    #main_text h1 {
+        color: rgba(255, 255, 255);
+        font-size: 24px;
+    }
+    #main_text h2 {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    
+    #main_text h3 {
+        color: rgb(0, 139, 104);
+        font-size:15px;
+    }
+    
+    #main_text p {
+        font-size: 12px;
+    }
+
+    .img-thumbnail {
+        padding: 0.25rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
+/* Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) { 
+    
+    body {
+        background-color: rgb(255, 255, 255) !important;
+    }
+    .chairText > p {
+        font-family:'kenyancoffee';
+        font-size:18px;
+        color: rgb(73, 48, 24);
+    }
+    .chairText > h3 {
+        
+        font-size:22px;
+        color: green;
+    }
+    .chairText > h2 {
+        font-family:'kenyancoffee';
+        font-size:20px;
+        color: green;
+    }
+    .homeText > p {
+        color:black;
+        font-size:20px;
+    }
+    .homeText > h4 {
+        color:white;
+        font-size:25px;
+    }
+    .homeText > h3 {
+        font-family:'kenyancoffee', kenyan coffee rg;
+        font-size:30px;
+        color: rgb(73, 48, 24);
+    }
+    .homeText > h2 {
+        font-size:40px;
+        color:white;
+    }
+    
+
+    #main_text {
+        float: right;
+        margin-top: 7%;
+    }
+    #main_text h1 {
+        color: rgb(255, 255, 255);
+        font-size: 34px;
+    }
+    #main_text h2 {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+    
+    #main_text h3 {
+        color: rgb(0, 139, 104);
+        font-size:17px;
+    }
+    
+    #main_text p {
+        font-size: 15px;
+    }
+    .img-thumbnail {
+        padding: 0.25rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+}
+/* Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) { 
+    
+    body {
+        background-color: rgb(250, 250, 250) !important;
+    }
+    .chairText > p {
+        font-family:'kenyancoffee';
+        font-size:20px;
+        color: rgb(73, 48, 24);
+    }
+    .chairText > h3 {
+        
+        font-size:25px;
+        color: green;
+    }
+    .chairText > h2 {
+        font-family:'kenyancoffee';
+        font-size:24px;
+        color: green;
+    }
+    .homeText > p {
+        color:black;
+        font-size:23px;
+    }
+    .homeText > h4 {
+        color:white;
+        font-size:35px;
+    }
+    .homeText > h3 {
+        font-family:'kenyancoffee', kenyan coffee rg;
+        font-size:35px;
+        color: rgb(73, 48, 24);
+    }
+    .homeText > h2 {
+        font-size:45px;
+        color:white;
+    }
+    
+    #main_text {
+        float: right;
+        margin-top: 20%;
+    }
+    #main_text h1 {
+        color: rgb(255, 255, 255);
+        font-size: 34px;
+    }
+    #main_text h2 {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+    }
+    
+    #main_text h3 {
+        color: rgb(0, 139, 104);
+        font-size: 17px;
+    }
+    
+    #main_text p {
+        font-size: 15px;
+    }
+
+    .logo {
+        margin-top: 7px;
+    }
+    .img-thumbnail {
+        padding: 0.25rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        width: 200px !important;
+        height: 200px !important;
+    }   
+
+}
+.card-buttons{
+    margin-top:50px;
+}
+
+.card-description {
+    margin-left:20px;
+}
+.card-buttons .btn{
+    background-color: rgb(110, 172, 125);
+    color: black;
+}
+
+.card-image .model3D  {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    height: 200px;
+}
+.row .card_gallery{
+    margin: auto;
+}
+.card-history{
+    background-color: rgb(230, 225, 209);
+}
+X3D, x3d {
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 100%
+}
+.card-buttons .navbar_inner .nav-item:hover{
+    background-color: white;
+
+}
+
+
